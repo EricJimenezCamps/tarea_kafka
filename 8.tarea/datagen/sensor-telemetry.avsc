@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "name": "SensorTelemetry",
+  "fields": [
+    { "name": "sensor_id", "type": "string" },
+    { "name": "temperature", "type": "float" },
+    { "name": "humidity", "type": "float" },
+    { "name": "status", "type": "string" },
+    { "name": "timestamp", "type": "long" }
+  ]
+}
+
+

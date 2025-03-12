@@ -1,0 +1,19 @@
+{
+  "name": "source-mysql-transactions",
+  "config": {
+    "connector.class": "io.confluent.connect.jdbc.JdbcSourceConnector",
+    "tasks.max": "1",
+    "connection.url": "jdbc:mysql://mysql:3306/db?user=user&password=password&useSSL=false",
+    "mode": "timestamp",
+    "timestamp.column.name": "timestamp",
+    "topic.prefix": "sales-transactions",
+    "table.whitelist": "sales_transactions",
+    "poll.interval.ms": "1000",
+    "validate.non.null": "false",
+    "numeric.mapping": "best_fit",
+    "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "value.converter": "io.confluent.connect.avro.AvroConverter",
+    "value.converter.schema.registry.url": "http://schema-registry:8081"
+  }
+}
+  

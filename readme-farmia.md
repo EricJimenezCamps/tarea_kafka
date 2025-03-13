@@ -41,7 +41,7 @@ La arquitectura que he implementado se compone de:
 
 ### Iniciar el Entorno
 
-Para iniciar el entorno, he creado un script que configura todo automáticamente:
+Para iniciar el entorno, ejecuto el script que configura todo automáticamente:
 
 ```bash
 cd 8.tarea
@@ -236,9 +236,7 @@ Durante el desarrollo de este proyecto enfrenté varios desafíos:
 
 ## Conclusiones
 
-Este proyecto me ha permitido aprender mucho sobre Kafka y su ecosistema. He logrado implementar un pipeline completo que captura, procesa y analiza datos en tiempo real, generando información valiosa para la toma de decisiones.
-
-Lo que más me gustó fue ver cómo los diferentes componentes (Connect, Streams, Schema Registry) trabajan juntos de forma integrada, aunque al principio parecía complicado.
+He logrado implementar un pipeline completo que captura, procesa y analiza datos en tiempo real, generando información valiosa.
 
 Si tuviera que mejorar algo, quizás añadiría una interfaz web para visualizar las alertas y resúmenes de forma más amigable, o implementaría más lógica de negocio para generar insights más complejos.
 
